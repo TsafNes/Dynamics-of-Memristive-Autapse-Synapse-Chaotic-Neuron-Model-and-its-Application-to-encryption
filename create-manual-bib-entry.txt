@@ -1,0 +1,136 @@
+Article [1]
+The required fields here are author, title, journal, and year; all others can
+be omitted if you do not have the corresponding information. Note as well
+that author names should be separated by “and”.
+
+@article{key ,
+author = {Arthur B Cummings and David Eftekhary and Frank G House},
+title = {The accurate determination of college students’
+coefficients of friction},
+journal = {Journal of Sketchy Physics},
+volume = {13},
+year = {2003},
+number = {2},
+pages = {46--129}
+}
+
+Book [2]
+The required fields are author, title, publisher, and year.
+
+@book{key ,
+author = {I J Kuss},
+title = {On the Importance of Kissing Up to Your Boss},
+edition = {5},
+publisher = {Dilbert Books},
+address = {Cambridge MA},
+year = {1995}
+}
+
+Series [3]
+Series are cited as books with an additional field.
+
+@book{key ,
+author = {L M Napster},
+title = {Mathematical Theory of Efficient Piracy},
+series = {Lecture Notes in Mathematics},
+volume = {3204},
+publisher = {Springer Verlag},
+address = {New York NY},
+year = {1998}
+}
+
+PhD Thesis [4]
+The required fields are author, title, publisher, and year. You may also
+cite master’s theses using the mastersthesis entry type.
+
+@phdthesis{key ,
+author = {O P Qwerty},
+title = {History of the Goofy Layout of Keyboards},
+publisher = {Podunk University Arcana Department},
+address = {Podunk IN},
+year = {1996}
+}
+
+Technical Report [5]
+The required fields are author, title, publisher, and year.
+
+@techreport{key ,
+author = {Robert Swearingen},
+title = {Morpholoty and syntax of British sailors’ English},
+series = {Technical Report},
+volume = {249},
+publisher = {Profanity Institute},
+address = {New York NY},
+year = {1985}
+}
+
+In Collection [6]
+The required fields are author, title (of the article within the book), book-
+title (name of the book containing the article), and year.
+
+@incollection{key ,
+author = {Tom Upsilon},
+title = {Obscure Greek letters and their meanings
+in mathematics and the sciences},
+editor = {V W Xavier},
+booktitle = {Proceedings of the seventh international
+trivia conference},
+publisher = {Last Resort Publishers},
+address = {Philadelphia PA},
+year = {1987},
+pages = {129--158}
+}
+
+
+
+
+Website [7]
+For websites, note the specific formatting of the howpublished field. Be
+sure to include the date of access as shown. Also, keep in mind that certain
+characters common in urls, such as underscores, must be escaped (preceded
+by a backslash, ex.
+
+@misc{key ,
+author = {James Tetazoo},
+title = {A brief guide to recreational pyromania},
+howpublished = {Available at \url{http://
+www.blowinglotsofweirdstuffup.com/guide.html} (2005/06/12)}
+}
+
+Accepted for Publication [8]
+To show that an article has been accepted for publication but not yet
+published, include the line note = {(in press)}.
+
+@unpublished{key ,
+author = {J Mentor},
+title = {Behavior of small animals on fire},
+journal = {Nature},
+note = {(in press)}
+}
+
+Not Published [10]
+If a manuscript has not yet been published or submitted for publication,
+you may still cite it. Include a note to this effect.
+
+@unpublished{key ,
+author = {J Mentor},
+title = {Behavior of small animals on fire},
+note = {Unpublished Manuscript},
+year = {2012}
+}
+
+Conversation [11]
+Occasionally, an important item that does not exist in the literature will
+be discussed with your mentor. When this happens, you may cite the con-
+versation with your mentor.
+
+@misc{key ,
+author = {Sigmund Freud},
+month = {July},
+year = {2012},
+howpublished = {Personal conversation}
+}
+
+
+
+
